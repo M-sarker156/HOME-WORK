@@ -1,0 +1,15 @@
+@import 'variables';
+@mixin button-default-style{
+    border: 1 px solid;
+    padding: 10px 20px;
+    color: red;
+
+}
+.button-primary{
+    @include button-default-style();
+
+}
+.button-secondary{
+    @include button-default-style();
+    
+}
